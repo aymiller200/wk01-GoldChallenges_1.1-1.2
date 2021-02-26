@@ -11,14 +11,27 @@
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
 
 //!1
-
 for (let i = 0; i <= 10; i++){
-    console.log(i);
-}
+    callback(i)}
 
 //!2 
+function callback(num){
+    console.log(num);
+} 
+for (let i = 0; i <= 10; i++){
+    callback(i); }
 
 //!3 
+function callback(num){
+    if (num % 2 == 0) {
+        console.log(`${num} is even`);
+    } else {
+        console.log(`${num} is odd`);
+    }
+} 
+
+for (let i = 0; i <= 10; i++){
+    callback(i); }
 
 
 

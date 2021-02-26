@@ -1,6 +1,7 @@
 /* 
     1. Write a for loop that counts from 0-10. Each time the loop runs, it should invoke a callback function (see step 2).
 
+
     2. Declare a function named callback. This function needs to accept a parameter. Inside the function, console.log each number (0-10) from the previously written for loop. Your console should look like the screenshot below.
         - After you've successfully console.logged 0-10 (as pictured above), move on to step 3.
         
@@ -8,3 +9,18 @@
 */
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
+
+//!1
+
+for (let i = 0; i <= 10; i++){
+    console.log(i);
+}
+
+//!2 
+
+//!3 
+
+
+
+
+

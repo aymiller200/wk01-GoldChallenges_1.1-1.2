@@ -24,9 +24,9 @@ for (let i = 0; i <= 10; i++){
 //!3 
 function callback(num){
     if (num % 2 == 0) {
-        console.log(`${num} is even`);
+        console.log('The number is even');
     } else {
-        console.log(`${num} is odd`);
+        console.log('The number is odd');
     }
 } 
 
